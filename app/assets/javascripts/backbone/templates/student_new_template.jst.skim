@@ -1,0 +1,24 @@
+
+form
+  fieldset
+    label.Label
+      | Name
+    input.name-input type="text" placeholder="First Name"
+    label.Label
+      | Last-Name
+    input.surname-input type="text" placeholder="Last Name"
+
+
+/ p
+/   | Age
+/ p
+/   | Email
+/ p
+/   | Course
+    
+button.save.btn.btn-info
+  | Save
+  
+
+
+

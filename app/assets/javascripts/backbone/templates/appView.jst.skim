@@ -1,0 +1,8 @@
+ul class="nav nav-tabs"
+  li.active.add
+    a href="#" Add
+  li
+  li.active.view-table
+    a href="#" View Table
+  li.active.view-grid
+    a href="#" View Grid

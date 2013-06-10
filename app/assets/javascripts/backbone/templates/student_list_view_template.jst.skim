@@ -1,0 +1,12 @@
+td = @first_name
+td = @last_name
+  / = @age
+  / = @email
+  / = @course
+td
+  .button.edit.btn
+    | Edit
+td
+  .button.delete.btn
+    | Delete
+

@@ -6,7 +6,7 @@ group :assets do
   gem "coffee-rails", "~> 3.2.1"
   gem "uglifier", ">= 1.0.3"
 end
-gem "jquery-rails", "2.3.0"
+gem "jquery-rails", "2.1.3"
 gem "unicorn", ">= 4.3.1"
 gem "haml2slim", ">= 0.4.6", :group => :development
 gem "haml-rails", ">= 0.4", :group => :development
@@ -31,7 +31,7 @@ gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri
 gem "activeadmin", "0.5.1"
 gem "meta_search", ">= 1.1.0.pre"
 
-gem "rails-backbone"
+gem "rails-backbone", "0.9.10"
 gem "slim", "1.2.2"
 gem "skim", "0.8.6"
 gem "temple", "0.4.0"

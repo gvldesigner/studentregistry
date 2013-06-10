@@ -1,0 +1,18 @@
+p
+  | Name:
+  input.name-input value="#{@first_name}"
+
+p
+  | Surname:
+  input.surname-input value="#{@last_name}"
+
+/ p
+/   Age: <input class='age-input' value='<%= age %>'/></p>
+/ p
+/   Email: <input class='email-input'/ value='<%= email %>'></p>
+/ p
+/   Course: <input class='course-input' value='<%= course %>'/></p>
+button.save.btn
+  | Save
+button.edit.btn
+  | Cancel
